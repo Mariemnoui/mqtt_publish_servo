@@ -6,7 +6,7 @@
 #define MQTT_SERVER "ajax-der-kleine.clients.ldv.ei.tum.de"
 const char* ssid = "LDV-CPP";
 const char* password = "LDV-LK-C++";
-const int x = 800 ; 
+const int x = 800 ; //This is the reference value
 char* Topic = "servo";
 //MQTT callback
 void callback(char* topic, byte* payload, unsigned int length) {
